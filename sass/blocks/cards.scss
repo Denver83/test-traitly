@@ -1,0 +1,99 @@
+.cards{
+ padding-left: 20px;
+ padding-top: 25px;
+}
+.cards__header{
+	display: flex;
+	padding-bottom: 20px;
+}
+.cards__title{
+	font-size: 21px;
+	line-height: 18px;
+}
+.cards__header time{
+	font-size: 10px;
+	line-height: 12px;
+	color: #9b9b9b;
+}
+.cards__list{
+	list-style: none;
+	display: flex;
+	width: 1000px;
+}
+.cards__item{
+	display: flex;
+	width: 91%;
+}
+.cards__image{
+	display: block;
+}
+.card{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.card__title{
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000;
+}
+.card__store-name{
+	color: #9b9b9b;
+	font-size: 13px;
+	line-height: 18px;
+}
+.rating{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	width: 80px;
+	height: 15px;
+	background: url(../img/stars.png) no-repeat 0% 50%;
+	color: #9b9b9b;
+	font-size: 10px;
+	line-height: 8px;
+	text-align: right;
+}
+.card__btn-add{
+	width: 90px;
+	height: 25px;
+	background-color: #8ba0fc;
+	font-size: 10px;
+	line-height: 18px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+}
+.cards__footer{
+	position: relative;
+	height: 55px;
+}
+.radio-block{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+// слайдер
+.prev,
+.next{
+	background-color: #5f9ea0;
+	padding-top: 250px;
+	border: 1px solid gray;
+}
+.prev:hover,
+.next:hover{
+	opacity: 0.4;
+}
+.cards__item:nth-child(1){
+	animation: slideInLeft  ease-in-out;
+}
+.cards__item:nth-child(2){
+	animation: slideInLeft  ease-in-out;
+}
+.cards__item:nth-child(3){
+  animation: slideInLeft  ease-in-out;
+}
+.curry{
+	display: flex;
+}
+// конец слайдера

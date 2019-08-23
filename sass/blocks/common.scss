@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+*,*::before,*::after {
+	box-sizing: inherit;
+}
+a{
+	text-decoration: none;
+}
+p,ul,h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 13px;
+	font-weight: 400;
+	font-family: "CircularStd", sans serif;
+}
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "CircularStd", sans serif;
+  src: url("../fonts/CircularStd-Book.otf");
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; 
+}
+.container{
+  width: 375px;
+  margin: 0 auto;
+  padding-top: 25px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+@keyframes slideInLeft {
+  from {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  visibility: visible;
+  }
+  to {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+}
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}

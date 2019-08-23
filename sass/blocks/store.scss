@@ -1,0 +1,49 @@
+
+.store{
+	padding: 30px;
+}
+.author{
+	color: #8099f1;
+}
+.store__title{
+	padding-top: 25px;
+	width: 205px;
+	font-size: 30px;
+	line-height: 38px;
+	color: #4a4a4a;
+}
+.container--store{
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.store-img{
+	width: 100%;
+	height: 360px;
+	background: url(../img/store-img.png) no-repeat center;
+}
+.shophome{
+	display: block;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background-color: #8099f1;
+	color: #fff;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 12px;
+	border-radius: 8px;
+	box-shadow: 0 22px 5px rgba(0,0,0,0.1);
+	margin-bottom: 30px;
+}
+.learn{
+	display: block;
+	font-size: 14px;
+	font-family: "Poppins" , sans serif;
+	line-height: 14px;
+	text-align: center;
+	color: #8099f1;
+}

@@ -1,0 +1,28 @@
+.search-block{
+ margin: 0 auto;
+}
+.search-form{
+	position: relative;
+	width: 100%;
+	padding-left: 30px;
+}
+.search{
+	width: 90%;
+	height: 40px;
+	padding-left: 15px;
+	font-size: 16px;
+	line-height: 12px;
+	color: #9b9b9b;
+	border: none;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+.search-btn{
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 12px;
+	right: 16%;
+	width: 15px;
+	height: 15px;
+	background: url(../img/search.png) no-repeat;
+}

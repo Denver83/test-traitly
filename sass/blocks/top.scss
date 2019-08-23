@@ -1,0 +1,103 @@
+
+.top{
+	height: 120px;
+	padding-left: 20px;
+}
+.top__header{
+	display: flex;
+	padding-bottom: 20px;
+}
+.top__title{
+	font-size: 21px;
+	line-height: 18px;
+	padding-right: 48%;
+}
+.top__header time{
+	font-size: 10px;
+	line-height: 12px;
+	color: #9b9b9b;
+	padding-right: 45%;
+}
+.top__header__btn{
+	border: none;
+	outline: none;
+	color: #557ac7;
+	font-size: 10px;
+	line-height: 12px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.top__list{
+	list-style: none;
+	display: flex;
+	width: 1000px;
+}
+.top__item{
+	display: flex;
+	flex-direction: column;
+	padding-right: 13px;
+}
+.top__card{
+	position: relative;
+	width: 75px;
+	height: 50px;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+.top__image{
+	display: block;
+	margin: auto;
+}
+.top__card--1{
+background-color: #7994ea;
+}
+.top__card--2{
+background-color: #42ddd4;
+}
+.top__card--3{
+background-color: #fca199;
+}
+.top__card--4{
+background-color: #887afe;
+}
+.top__card--5{
+background-color: #7f98f0;
+}
+.top-card__title{
+	display: block;
+	font-size: 12px;
+	line-height: 10px;
+	color: #4a4a4a;
+	margin-bottom: -10px;
+}
+.top__header__btn{
+	border: none;
+	outline: none;
+	color: #557ac7;
+	font-size: 10px;
+	line-height: 12px;
+	background-color: transparent;
+}
+.top__prev{
+	position: absolute;
+	top: 60px;
+	left: 0;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	height: 160px;
+	width: 30px;
+}
+.top__next{
+	position: absolute;
+	top: 60px;
+	right: 0;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	height: 160px;
+	width: 30px;
+}
+.curry-top{
+	display: flex;
+}
