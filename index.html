@@ -10,22 +10,22 @@
 <body>
 	<div class="container">
 		<section class="search-block">
+			<h2 class="visually-hidden">Search gift</h2>
 			<form class="search-form" action="action.php" method="get">
 				<input type="search" placeholder="Search" name="search" class="search">
-				<button type="submit" class="search-btn">
+				<button type="submit" class="search-btn"></button>
 			</form>
 		</section>
 		<section class="cards">
 			<h1 class="visually-hidden">In trend</h1>
 			<header class="cards__header">
 				<h2 class="cards__title">Todays Trending</h2>
-				<time>20thMay</time>
+				<span>20thMay</span>
 			</header>
-			<main>
 				<div class="cards__wrapper">
 					<ul class="cards__list">
 						<li class="cards__item cards__item--first curry">
-							<a class="cards__image" href="page-1.html"><img src="img/Product-image.png" alt="" "></a>
+							<a class="cards__image" href="page-1.html"><img src="img/Product-image.png" alt="Product-image"></a>
 							<div class="card">
 								<a href="page-1.html" class="card__title">Product name#1</a>
 								<p class="card__store-name">Store Name</p>
@@ -53,7 +53,6 @@
 						</li>
 					</ul>
 				</div>
-			</main>
 			<footer class="cards__footer">
 				<div class="radio-block">
 					<input type="radio" class="prev" name="owl" >
@@ -66,7 +65,7 @@
 			<h1 class="visually-hidden">best-selling</h1>
 			<header class="best-selling__header">
 				<h2 class="best__title">Best Selling</h2>
-				<time>This week</time>
+				<span>This week</span>
 				<button class="best-selling__header__btn">See all</button>
 			</header>
 			<div class="slider">
@@ -216,6 +215,6 @@
 		</section>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>

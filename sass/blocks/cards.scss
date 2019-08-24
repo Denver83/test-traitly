@@ -5,16 +5,15 @@
 .cards__header{
 	display: flex;
 	padding-bottom: 20px;
+	font-size: 10px;
+	line-height: 12px;
+	color: #9b9b9b;
 }
 .cards__title{
 	font-size: 21px;
 	line-height: 18px;
 }
-.cards__header time{
-	font-size: 10px;
-	line-height: 12px;
-	color: #9b9b9b;
-}
+
 .cards__list{
 	list-style: none;
 	display: flex;
